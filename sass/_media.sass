@@ -1,0 +1,251 @@
+@media (max-width: 1200px)
+	.menu
+		&_item
+			padding-right: 20px
+		&_link
+			font-size: 13px    
+	.promo
+		&_title
+			font-size: 50px
+	.reasons
+		&_block
+			align-items: flex-start
+		&_descr
+			width: 300px
+	.mobile
+		&_item
+			width: 290px
+			&_text
+					font-size: 22px
+	.choise
+		 
+		padding: 55px 0
+		min-height: 840px
+		&_img
+			width: 690px
+	.require
+		br
+			display: none
+	.footer
+		&_wrapper > div 
+			width: 50%
+			&:nth-child(1)
+				width: 25%
+			&:nth-child(3)
+				width: 25%
+				display: flex 
+				justify-content: flex-end
+		&_mobile
+			display: flex
+			a 
+				margin: 0 3px
+				img 
+					width: 100%
+
+@media (max-width: 991px)
+	.menu
+		&_item
+			padding-right: 8px
+		&_link
+			font-size: 10px
+	.subheader
+		&_img
+			max-width: 83%
+    		margin-top: 4px
+		&_text
+			font-size: 12px
+		&_btn
+			width: 100%
+			height: 40px
+			margin-top: 10px
+			
+		&_number
+			font-size: 17px
+			text-align: right
+			
+	.promo
+		&_title
+			font-size: 40px
+		&_subtitle
+			font-size: 30px
+	.reason
+		&_wrapper
+			flex-direction: column
+			align-items: center
+			
+		&_text
+			width: 300px
+			margin-top: 20px
+.mobile
+		&_item
+			width: 220px
+			&_text
+					font-size: 18px
+
+.white_title
+	font-size: 30px
+.white_subtitle
+	font-size: 15px
+.white_benefit
+	width: 91px
+	font-size: 10px
+
+.choise	 
+	&_img
+		width: 633px
+		height: 317px
+
+.title
+	font-size: 30px
+
+.subtitle
+	font-size: 15px
+
+.benefit
+	width: 91px
+	font-size: 10px
+.world
+	min-height: 650px
+
+	.footer
+		&_wrapper
+			flex-wrap: wrap
+		&_wrapper > div 
+			width: 100%
+			display: flex 
+			justify-content: center
+			margin-bottom: 20px
+			&:nth-child(1)
+				width: 100%
+			&:nth-child(3)
+				width: 100%
+				justify-content: center
+
+@media (max-width: 767px)
+	.title
+		margin-top: 25px
+	.menu
+		position: fixed
+		flex-direction: column
+		justify-content: center
+		align-items: center
+		top: 0
+		left: -100%
+		width: 50%
+		height: 100vh
+		padding: 20px 15px
+		background-color: rgba(0, 0, 0, .8 )
+		transition: 0.6s all
+		&_active
+			left: 0
+		&_item
+			padding-right: 0
+			border: none
+			margin: 10px 0
+		&_link
+			font-size: 20px
+	.hamburger
+		display: block
+		position: absolute
+		right: 10px
+		top: 50%
+		transform: translateY(-50%)
+		width: 26px
+		height: 12px
+		span
+			display: block
+			height: 2px
+			width: 100%
+			background-color: #fff
+			margin-bottom: 2px
+			transition: 0.5s all
+		&_active
+			span
+				margin-bottom: -2px
+				&:nth-child(1)
+					transform: translateY(3px) rotate(-45deg)
+				&:nth-child(2)
+					display: none
+				&:nth-child(3)
+					transform: translateY(3px) rotate(45deg)
+	.xs-hidden
+		display: none	
+	.xs-visible
+		display: block
+	.subheader
+		&_number
+			color: #fff
+			text-align: center 
+			font-size: 16px
+			font-weight: 400
+			text-transform: uppercase
+		&_btn
+			display: block
+			margin: 0 auto
+			margin-top: 5px
+			width: 200px
+			height: 40px
+			background-image: linear-gradient(0.0deg, #1eacc7 0%, #4ce2ff 100%)
+			border: 3px solid rgba(0,0,0,0.06)
+			box-shadow: inset 0px -3px 0px 0px rgba(0,0,0,0.11)
+		&_img
+			display: block
+			margin-left: 50px
+	.promo
+		&_title
+			font-size: 30px
+
+@media (max-width: 575px)
+	.subheader
+		&_text
+			display: none
+		&_img
+			display: block
+			margin-top: 18px	
+		&_number
+			margin-top: 17px
+			font-size: 12px
+			
+			font-weight: 400
+			text-transform: uppercase
+			color: #ffffff
+		&_btn
+			width: 116px
+			height: 28px
+			font-size: 9px
+			background-image: linear-gradient(0.0deg, #1eacc7 0%, #4ce2ff 100%)
+			border: 3px solid rgba(0,0,0,0.06)
+			box-shadow: inset 0px -3px 0px 0px rgba(0,0,0,0.11)
+	.promo
+		min-height: 400px
+		padding: 193px 0 35px
+		&_text
+			display: none
+		&_title
+			padding: 0 24px
+			font-size: 30px
+			line-height: 35px
+			font-weight: 900
+			text-transform: uppercase
+			color: #ffffff
+		&_subtitle
+			font-size: 20px
+			font-weight: 700
+			padding: 0 10px
+			margin-top: 33px
+		&_btn
+			width: 216px
+			height: 56px
+			margin-top: 72px
+			background-image: linear-gradient(0.0deg, #1eacc7 0%, #4ce2ff 100%)
+			border: 3px solid rgba(0,0,0,0.06)
+			box-shadow: inset 0px -4px 0px 0px rgba(0,0,0,0.11)
+	.menu
+		width: 85%
+	.reasons
+		padding: 22px 0 36px 0
+
+	.title
+		font-size: 16px
+		margin-top: 15px
+		line-height: 16px
